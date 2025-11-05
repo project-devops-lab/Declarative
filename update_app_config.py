@@ -190,6 +190,12 @@ def main():
         print("=" * 60)
         sys.exit(0)
 
+<<<<<<< HEAD
 # Main execution block
 if _name_ == '_main_':
     main()
+=======
+# Execute main function when script is run directly
+# This avoids the __name__ issue - script will always run main()
+main()
+>>>>>>> d535db1 (Fix Python script, add Dockerfile, and update config files)

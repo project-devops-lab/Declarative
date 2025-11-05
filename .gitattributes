@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ensure Python files use LF line endings
 *.py text eol=lf
 
@@ -30,3 +31,38 @@ docker-compose.yml text eol=lf
 
 # HTML
 *.html text eol=lf
+=======
+# Ensure Python files use LF line endings
+*.py text eol=lf
+
+# Ensure shell scripts use LF
+*.sh text eol=lf
+
+# Docker files
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf
+
+# Config files
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Text files
+*.md text eol=lf
+*.txt text eol=lf
+
+# TypeScript/JavaScript
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+
+# JSON
+*.json text eol=lf
+
+# CSS
+*.css text eol=lf
+
+# HTML
+*.html text eol=lf
+
+>>>>>>> d535db1 (Fix Python script, add Dockerfile, and update config files)
