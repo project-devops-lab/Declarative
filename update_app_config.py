@@ -94,7 +94,6 @@ def update_react_config(ec2_ip, port=80):
                 # Skip duplicate API_URL exports
                 if 'export const API_URL' in line:
                     if not api_url_found:
-                        # Keep the comment before first export if it exists
                         cleaned_lines.append(line)
                         api_url_found = True
                     continue
@@ -191,5 +190,6 @@ def main():
         print("=" * 60)
         sys.exit(0)
 
+# Main execution block
 if _name_ == '_main_':
     main()
